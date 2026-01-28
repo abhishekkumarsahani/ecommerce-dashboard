@@ -16,6 +16,14 @@ export interface Order {
   status: 'pending' | 'completed' | 'cancelled';
 }
 
+export interface User {
+  id: string;
+  name: string;
+  email: string;
+  role: string;
+  avatar: string;
+}
+
 export interface Review {
   id: string;
   customer: string;
